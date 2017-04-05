@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/spring.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Spring Framework</h2>
+				<h5>Faça sua aplicação web em menos de uma hora!</h5>				
+				<p>
+					<img src="images/spring-logo.png" alt="Spring Framework" style="border: 0"/>
+				</p>
+				<p>
+					<small>por <a href="">Ahron Henrique Helfenstein</a></small>
+				</p>
+			</section>
+			<section class="me" data-transition="zoom">
+				<h2>Quem sou eu?</h2>
+				<ul>						
+					<li>Formado em Sistemas para Internet - Feevale</li>
+					<li>Software Developer at CWI Software</li>
+					<li>Desenvolvedor Java a 5 anos</li>				
+				</ul>
+			</section>
+
+
+			<section class="" data-transition="">							
+				<section class="" data-transition="">
+					<h2>Spring Framework</h2>
+					<h5>Inversão de Controle</h5>
+					<h5>Injeção de dependência</h5>
+				</section>
+				<section>
+					<img src="images/wtf.jpg" alt="Spring Framework" style="border: 0"/>
+				</section>
+			</section>
+
+
+			<section class="" data-transition="slide-in fade-in">
+				<img src="images/mimimi-do-java.jpg" alt="Spring Framework" style="border: 0"/>
+			</section>
+
+			<section class="" data-transition="">
+				<p class="">NÃO MESMO!!!</p>
+				<p class="fragment">MAKE</p>
+				<p class="fragment">IT</p>
+				<p class="fragment">SIMPLE</p>
+			</section>
+			
+
+			<section class="" data-transition="">
+				<h2>Por que usar?</h2>
+				<p class="fragment">Se tratando de uma aplicação Java</p>
+				<p class="fragment">A pergunta seria "porque não usar?"</p>
+			</section>
+			
+
+			<section class="" data-transition="slide">
+				<ul>
+					<li>Fácil configuração(Good Bye XML)</li>
+					<li>Curva de aprendizado baixa</li>
+					<li>Altamente produtivo</li>
+					<li>Comunidade ativa</li>				
+				</ul>
+				<h2 class="fragment">Ahh, e as libs...</h2>
+			</section>
+			<section class="" data-transition="fast">				
+				<img  style="border: none;" src="images/spring-ecosystem.jpg"/>
+			</section>
+
+			<section class="stack" data-transition="zoom">				
+				<h2>O que nós utilizaremos</h2>
+				<img src="images/spring-boot.png"/>
+				<img src="images/spring-framework.png"/>
+				<img src="images/spring-security.png"/>
+				<img src="images/spring-data.png"/>
+				<p class="">H2 Database</p>
+				<p class="fragment">e o lombok, por que é maneiro</p>
+			</section>
+
+			<section data-background="#6db33f">
+				<img class="spring-logo" src="images/spring-by-pivotal.png"/>
+				<h1 style="color:#fff">Mãos à obra!</h1>
+			</section>
+
+			<section data-background="#34302d">				
+				<h1 style="color:#fff">Obrigado!</h1>
+				<p ><a style="color:#6db33f" href="mailto:ahron.helfenstein@gmail.com  ">ahron.helfenstein@gmail.com</a></p>
+				<p><a  style="color:#6db33f" href="https://www.facebook.com/ahron.helfenstein">facebook.com/ahron.helfenstein</a></p>				
+			</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+	</html>
